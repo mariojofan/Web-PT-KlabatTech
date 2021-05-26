@@ -59,12 +59,13 @@ a {
 .titleWho {
   text-align: center;
   color: #ffffff;
+  margin-top: 100px;
 }
 .paragrafWho {
   color: #ffffff;
   text-align: center;
-  font-size: 20px;
-}
+  font-size: 40px;
+} 
 .titleWhat {
   color: #010d57;
   margin-top: 250px;
@@ -275,9 +276,108 @@ a {
   margin-top: 10px;
 }
 
+@media (min-width: 320px) {
+  #waves {
+    margin-top: -5vh;
+  }
+  .jumbotron {
+    height: 25vh;
+  }
+  .jumbotron .titleHero1 {
+    font-size: 18px;
+    margin-top: 5vh;
+  }
+  .jumbotron .titleHero2 {
+    font-size: 14px;
+  }
+  .titleWho {
+    font-size: 20px;
+    padding-top: 5px;
+    margin-top: -7vh;
+  }
+  .paragrafWho {
+    font-size: 13px;
+    margin-top: -1vh;
+  }
+  .titleWhat {
+    font-size: 20px;
+    padding-top: 11px;
+    margin-top: -3vh;
+  }
+  .paragrafWhat {
+    font-size: 13px;
+    margin-top: 0vh;
+  }
+  .cs-title {
+    font-size: 16px;
+    margin-left: 6vh;
+  }
+  .paragrafConsulting {
+    font-size: 14px;
+  }
+  .web-title {
+    font-size: 16px;
+  }
+  .paragrafWeb {
+    font-size: 14px;
+  }
+  .cloud-title {
+    font-size: 16px;
+  }
+  .paragrafCloud {
+    font-size: 14px;
+  }
+  .mobile-title {
+    font-size: 16px;
+  }
+  .paragrafMobile {
+    font-size: 14px;
+  }
+  .ui-title {
+    font-size: 16px;
+  }
+  .paragrafUI {
+    font-size: 14px;
+  }
+  .titleProduct {
+    font-size: 20px;
+    margin-top: -12vh;
+  }
+  .batibo {
+    width: 15vw;
+    margin-top: 0vh;
+    margin-left: 0;
+  }
+  .bapenda {
+    width: 15vw;
+    margin-top: -3vh;
+    margin-left: 18vw;
+  }
+  .wallshop {
+    width: 15vw;
+    margin-top: -2.9vh;
+    margin-left: 37vw;
+  }
+  .fik {
+    width: 15vw;
+    margin-top: -3vh;
+    margin-left: 55vw;
+  }
+  .unklab {
+    width: 15vw;
+    margin-top: -5vh;
+    margin-left: 75vw;
+  }
+  .instagram {
+    margin-left: 28vw; 
+    margin-top: -1px;
+  }
+}
+
+
 @media (min-width: 375px) {
   #waves {
-    margin-top: -20px;
+    margin-top: -45px;
   }
   .jumbotron {
     height: 250px;
@@ -287,15 +387,18 @@ a {
     padding-top: 30px;
   }
   .titleHero2 {
+    font-size: 20px;
     padding-top: 10px;
   }
   .titleWho {
     font-size: 20px;
     margin-top: -50px;
+    padding-top: 5px;
   }
   .titleWhat {
     font-size: 20px;
     margin-top: 50px;
+    padding-top: 10px;
   }
   .paragrafWho {
     font-size: 12px;
@@ -306,39 +409,211 @@ a {
     margin-top: -5px;
   }
   .cs-title {
-    margin-left: 65px;
+    margin-left: 85px;
   }
   .titleProduct {
     font-size: 18px;
-    padding-top: 180px;
+    margin-top: -15vh;
     padding-left: 10px;
   }
   .batibo {
-    width: 13%;
+    width: 18vw;
     margin-top: 20px;
     padding-left: 10px;
   }
   .bapenda {
     width: 15%;
-    margin-left: 65px;
-    padding-top: 30px;
+    margin-left: 22vw;
+    margin-top: -4vh;
   }
   .wallshop {
     width: 15%;
-    margin-left: 140px;
-    padding-top: 28px;
+    margin-left: 42vw;
+    margin-top: -3.8vh;
   }
   .fik {
     width: 15%;
-    padding-top: 25px;
-    margin-left: 220px;
+    margin-top: -4vh;
+    margin-left: 60vw;
   }
   .unklab {
     width: 13%;
-    padding-top: 40px;
-    margin-left: 290px;
+    margin-left: 80vw;
+    margin-top: -6vh;
+  }
+  .instagram {
+    margin-left: 110px;
+    margin-bottom: 10px;
+  }
+  .lines2 {
+    width: 100%;
+    height: 45px;
+    position: relative;
+  }
+  .lines2::after,
+  .lines2::before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: #2770be;
+    width: 40%;
+    top: 50%;
+  }
+  .lines2::after {
+    left: 0px;
+  }
+  .lines2::before {
+    right: 0;
   }
 }
+
+@media (min-width: 425px) {
+  .titleWho {
+    margin-top: -3vh;
+  }
+  .titleWhat {
+    margin-top: 10vh;
+  }
+  .cs-title {
+    margin-left: 25vw;
+  }
+}
+
+@media (min-width: 550px) {
+  #waves {
+    margin-top: 0px;
+  }
+
+  .jumbotron {
+    height: 300px;
+  }
+
+  .jumbotron .titleHero1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .jumbotron .titleHero2 {
+    font-size: 18px;
+  }
+
+  .titleWho {
+    font-size: 24px;
+    margin-top: -10px;
+    text-align: center;
+  }
+
+  .paragrafWho {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .titleWhat {
+    font-size: 24px;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .paragrafWhat {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .titleServices {
+    font-size: 24px;
+  }
+
+  .cs-title {
+    font-size: 19px;
+    margin-left: 150px;
+  }
+
+  .paragrafConsulting {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .web-title {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .paragrafWeb {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .cloud-title {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .paragrafCloud {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .mobile-title {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .paragrafMobile {
+    font-size: 16px;
+  }
+
+  .ui-title {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .paragrafUI {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .titleProduct {
+    font-size: 24px;
+    margin-top: -350px;
+  }
+  
+  .batibo {
+    width: 17vw;
+
+  }
+
+  .bapenda {
+    width: 17vw;
+    margin-left: 110px;
+    margin-top: -80px;
+  }
+
+  .wallshop {
+    width: 17vw;
+    margin-left: 40vw;
+    margin-top: -8vh;
+  }
+
+  .fik {
+    width: 17vw;
+    margin-left: 60vw;
+    margin-top: -8vh;
+  }
+
+  .unklab {
+    width: 15vw;
+    margin-left: 80vw;
+    margin-top: -15vh;
+  }
+
+  .instagram {
+    margin-left: 36vw;
+  }
+}
+
+
+
 
 @media (min-width: 576px) {
   #waves {
@@ -410,12 +685,16 @@ a {
   }
   .titleWho {
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 0;
   }
   .titleWhat {
     font-size: 30px;
     margin-top: 150px;
+  }
+  .paragrafWho {
+    padding-top: 20px;
+    font-size: 18px;
   }
   .paragrafWhat {
     margin-top: 10px;
@@ -425,7 +704,7 @@ a {
   }
   .titleProduct {
     font-size: 30px;
-    margin-top: -450px;
+    margin-top: -30vh;
   }
   .batibo {
     width: 100px;
@@ -434,20 +713,23 @@ a {
   }
   .bapenda {
     width: 100px;
-    margin-left: 150px;
+    margin-left: 22vw;
+    margin-top: -6vh;
   }
   .wallshop {
     width: 100px;
-    margin-left: 280px;
+    margin-left: 40vw;
+    margin-top: -5.5vh;
   }
   .fik {
     width: 100px;
-    margin-left: 420px;
+    margin-left: 58vw;
+    margin-top: -6vh;
   }
   .unklab {
     width: 100px;
-    margin-left: 550px;
-    margin-top: -100px;
+    margin-left: 75vw;
+    margin-top: -11vh;
   }
   .instagram {
     margin-left: 280px;
@@ -457,7 +739,7 @@ a {
 /* Desktop Version */
 @media (min-width: 992px) {
   #waves {
-    margin-top: 150px;
+    margin-top: 100px;
   }
   #WhoAreWe {
     margin-top: -30px;
@@ -654,7 +936,7 @@ a {
   }
   .titleProduct {
     color: #010d57;
-    margin-top: -700px;
+    margin-top: -75vh;
     font-weight: bold;
     font-size: 50px;
     justify-content: flex-start;
@@ -665,23 +947,23 @@ a {
   }
   .bapenda {
     width: 100%;
-    padding-top: 250px;
+    padding-top: 30vh;
     margin-left: 50px;
   }
   .wallshop {
     width: 100%;
-    margin-top: 208px;
+    padding-top: 32vh;
     margin-left: 90px;
   }
   .fik {
     width: 80%;
-    margin-top: 208px;
+    padding-top: 32vh;
     margin-left: 120px;
   }
   .unklab {
     width: 50%;
-    margin-top: 170px;
-    margin-left: 100px;
+    padding-top: 30vh;
+    margin-left: 8vw;
   }
   /* End Partners */
 
@@ -754,13 +1036,6 @@ a {
     color: white;
     text-decoration: none;
   }
-  .viewBatibo {
-    text-align: center;
-    margin-top: 10px;
-  }
-  .viewBapenda {
-    margin-top: 50px;
-  }
   /* Footer Desktop End */
 
   /* Line */
@@ -810,6 +1085,7 @@ a {
 }
 /* Desktop Version End */
 
+
 /* Utilities */
 .lines {
   width: 100%;
@@ -843,15 +1119,15 @@ a {
   position: absolute;
   margin: auto;
   height: 2px;
-  background: #2770be;
-  width: 30%;
-  top: 50%;
+  background: #010d57;
+  width: 40%;
+  top: 60%;
 }
 .lines2::after {
-  left: 0px;
+  left: -50px;
 }
 .lines2::before {
-  right: 0;
+  right: -50px;
 }
 /* Line End */
 
@@ -904,7 +1180,7 @@ a {
   color: #ffffff !important;
 }
 .container .text-header {
-  color: white !important;
+  color: white ;
   margin-top: 110px;
   margin-left: 20%;
   font-size: 60px;
