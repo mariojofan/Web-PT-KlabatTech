@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    box-sizing: content-box;
+}
+.bgBatibo {
+    width: 100%;
+}
+.desc1 {
+    color: #010d57;
+    margin-top: 20px;
+}
+.paragraf {
+    color: #010d57;
+    font-size: 24px;
+}
+#footer {
+    background-color: #010d57;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+.titleContact {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .title-pt {
+    color: #ffffff;
+    margin-top: 105px;
+    text-align: left;
+  }
+  .text1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: -26rem;
+    text-align: left;
+    font-family: "Poppins";
+  }
+  .text1 span {
+      font-weight: bold;
+  }
+  .text2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .text2 span {
+      font-weight: bold;
+  }
+  .text3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .text4 {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: left;
+  }
+  .text4 span {
+      font-weight: bold;
+  }
+  .instagram {
+    width: 40px;
+    height: 40px;
+    margin-left: 0;
+    margin-top: -10px;
+  }
+  .facebook {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: -10px;
+  }
+  .whatsapp {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: -10px;
+  }
+  .map {
+    width: 50%;
+    height: 500px;
+    margin-top: -30px;
+    margin-left: 500px;
+  }
