@@ -369,8 +369,8 @@ a {
     margin-left: 75vw;
   }
   .instagram {
-    margin-left: 28vw;
-    margin-top: -1px;
+    margin-left: 27vw;
+    margin-top: 0px;
   }
 }
 
@@ -443,6 +443,13 @@ a {
   .instagram {
     margin-left: 110px;
     margin-bottom: 10px;
+    margin-top: 0px;
+  }
+  .facebook {
+    margin-top: -10px;
+  }
+  .whatsapp {
+    margin-top: -10px;
   }
   .lines2 {
     width: 100%;
@@ -492,6 +499,9 @@ a {
   }
   .unklab {
     margin-top: -8.5vh;
+  }
+  .instagram {
+    margin-left: 136px;
   }
 }
 
