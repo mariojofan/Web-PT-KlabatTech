@@ -369,8 +369,14 @@ a {
     margin-left: 75vw;
   }
   .instagram {
-    margin-left: 27vw;
-    margin-top: 0px;
+    margin-left: 26.5vw;
+    margin-top: 5px;
+  }
+  .facebook {
+    margin-top: 5px;
+  }
+  .whatsapp {
+    margin-top: 5px;
   }
 }
 
@@ -441,15 +447,15 @@ a {
     margin-top: -7vh;
   }
   .instagram {
-    margin-left: 110px;
+    margin-left: 115px;
     margin-bottom: 10px;
-    margin-top: 0px;
+    margin-top: 5px;
   }
   .facebook {
-    margin-top: -10px;
+    margin-top: -5px;
   }
   .whatsapp {
-    margin-top: -10px;
+    margin-top: -5px;
   }
   .lines2 {
     width: 100%;
@@ -753,7 +759,7 @@ a {
     margin-top: -14vh;
   }
   .instagram {
-    margin-left: 280px;
+    margin-left: 285px;
   }
 }
 
@@ -969,12 +975,12 @@ a {
   .bapenda {
     width: 100%;
     padding-top: 30vh;
-    margin-left: 50px;
+    margin-left: 20px;
   }
   .wallshop {
     width: 100%;
     padding-top: 32vh;
-    margin-left: 90px;
+    margin-left: 70px;
   }
   .fik {
     width: 80%;
@@ -1042,11 +1048,13 @@ a {
     width: 40px;
     height: 40px;
     margin-left: 5px;
+    margin-top: 0px;
   }
   .whatsapp {
     width: 40px;
     height: 40px;
     margin-left: 5px;
+    margin-top: 0px;
   }
   .map {
     width: 45%;

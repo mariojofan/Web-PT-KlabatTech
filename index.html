@@ -34,7 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">     
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"><h4>Home</h4></a>
+                        <a class="nav-link " href="#"><h4>Home</h4></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="#WhoAreWe"><h4>Who Are We</h4></a>
@@ -221,7 +221,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg container">
+                        <div class="col">
                             <a href="https://www.google.co.id/maps/place/Gedung+Kuliah+II+Unklab/@1.4166223,124.9829853,18z/data=!4m8!1m2!2m1!1sunklab!3m4!1s0x0:0xb4b93230014d2d61!8m2!3d1.4174485!4d124.9825273" target="_blank"><img class="map img-fluid float-end " src="images/map.png" alt="map"></a>
                         </div>
                     </div>  
@@ -237,7 +237,7 @@
                             </p>
                             <p class="text2">
                                 <span>Email</span><br>
-                                <a class="textlink" href="#">pt.ktp@gmail.com</a>
+                                <a class="textlink" href="#">admin@kalbatteknoperkasa.id</a>
                             </p>
                             <p class="text3">
                                 <span>Phone</span><br>
@@ -273,11 +273,27 @@
         AOS.init();
     </script>
 
+
+    <!-- <script type="text/javascript">
+    $("a").click(function(){
+        $("a").css("background-color","");
+        $(this).css("background-color","grey");
+    });
+    </script> -->
+
+    <script>
+       $(document).ready(function(){
+           $('.nav-link').on('click', 'a', function(){
+               $('.nav-link a.active').removeClass('active');
+               $(this).addClass('active');
+           })
+       })
+    </script>
     
     <!-- Button Js -->
    
 
-    <script src=""></script>
+    <!-- <script src=""></script>
     <script type="text/javascript">
         var nav = document.querySelector('nav');
         window.addEventListener('scroll', function(){
@@ -288,7 +304,7 @@
                 nav.classList.remove('bg-light', 'shadow');
             }
         })
-    </script>
+    </script> -->
 
     
     <!-- Option 2: Separate Popper and Bootstrap JS -->
